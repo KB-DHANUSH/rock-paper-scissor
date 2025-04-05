@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  #header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #header h1 {
+    padding: 20px 0;
+  }
+  
+  .imgClass {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .images {
+    height: 165px;
+    width: 165px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .images:hover {
+    transform: scale(1.2);
+    border:1px black solid;
+  }
+  
+  .scoreBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .scoreBoard p {
+    text-align: center;
+  }
+  
+  .prompt {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.msg{
+    background-color: #081b31;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+.rst{
+  display: flex;
+  justify-content: center;
+}
+.rst button{
+  width:280px;
+  border-radius: 30px;
+  height: 55px;
+  background-color: black;
+  color: wheat;
+}
+
+.uwin{
+  background-color: green;
+  color: white;
+  display: inline-block;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+.iwin{
+  background-color: red;
+  color: black;
+  display: inline-block;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
